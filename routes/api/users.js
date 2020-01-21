@@ -67,7 +67,7 @@ router.post(
 
       // return jasonwebtoken
       const payload = {
-        id: user.id
+        user: { id: user.id }
       };
 
       jwt.sign(
