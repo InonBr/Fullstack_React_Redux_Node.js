@@ -1,5 +1,5 @@
 # ignore node_modules
 node_modules/ 
 
-# ignore defult.json
+# ignore defult.json (tokens)
 config/default.json
